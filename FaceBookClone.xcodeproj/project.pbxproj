@@ -12,6 +12,9 @@
 		CDEAAAC622EFD520009FDD96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEAAAC422EFD520009FDD96 /* Main.storyboard */; };
 		CDEAAAC822EFD521009FDD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEAAAC722EFD521009FDD96 /* Assets.xcassets */; };
 		CDEAAACB22EFD521009FDD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEAAAC922EFD521009FDD96 /* LaunchScreen.storyboard */; };
+		CDEAAAD522EFD571009FDD96 /* WhiteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEAAAD222EFD571009FDD96 /* WhiteIcon.png */; };
+		CDEAAAD622EFD571009FDD96 /* Hands.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEAAAD322EFD571009FDD96 /* Hands.png */; };
+		CDEAAAD722EFD571009FDD96 /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEAAAD422EFD571009FDD96 /* Cover.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CDEAAAC722EFD521009FDD96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDEAAACA22EFD521009FDD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDEAAACC22EFD521009FDD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEAAAD222EFD571009FDD96 /* WhiteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteIcon.png; sourceTree = "<group>"; };
+		CDEAAAD322EFD571009FDD96 /* Hands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hands.png; sourceTree = "<group>"; };
+		CDEAAAD422EFD571009FDD96 /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		CDEAAABF22EFD520009FDD96 /* FaceBookClone */ = {
 			isa = PBXGroup;
 			children = (
+				CDEAAAD422EFD571009FDD96 /* Cover.png */,
+				CDEAAAD322EFD571009FDD96 /* Hands.png */,
+				CDEAAAD222EFD571009FDD96 /* WhiteIcon.png */,
 				CDEAAAC022EFD520009FDD96 /* AppDelegate.swift */,
 				CDEAAAC222EFD520009FDD96 /* ViewController.swift */,
 				CDEAAAC422EFD520009FDD96 /* Main.storyboard */,
@@ -123,7 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDEAAACB22EFD521009FDD96 /* LaunchScreen.storyboard in Resources */,
+				CDEAAAD722EFD571009FDD96 /* Cover.png in Resources */,
 				CDEAAAC822EFD521009FDD96 /* Assets.xcassets in Resources */,
+				CDEAAAD622EFD571009FDD96 /* Hands.png in Resources */,
+				CDEAAAD522EFD571009FDD96 /* WhiteIcon.png in Resources */,
 				CDEAAAC622EFD520009FDD96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
