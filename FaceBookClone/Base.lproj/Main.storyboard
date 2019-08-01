@@ -18,17 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cover.png" translatesAutoresizingMaskIntoConstraints="NO" id="i68-yv-7pa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cover.png" translatesAutoresizingMaskIntoConstraints="NO" id="i68-yv-7pa">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="Brf-zm-eBc"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hands.png" translatesAutoresizingMaskIntoConstraints="NO" id="o9v-vE-dZZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hands.png" translatesAutoresizingMaskIntoConstraints="NO" id="o9v-vE-dZZ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mmo-qS-54f">
-                                <rect key="frame" x="67" y="87" width="240" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="pzX-8a-h64"/>
+                                </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-a7-bbx">
                                 <rect key="frame" x="16" y="247" width="343" height="100"/>
@@ -95,8 +95,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhiteIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mmo-qS-54f">
+                                <rect key="frame" x="150" y="77.666666666666671" width="75" height="75.000000000000014"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="Knu-7O-bra"/>
+                                    <constraint firstAttribute="width" constant="75" id="ypI-kL-Wkq"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="o9v-vE-dZZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0PH-iW-tjr"/>
+                            <constraint firstItem="i68-yv-7pa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DhI-z4-IH9"/>
+                            <constraint firstItem="Mmo-qS-54f" firstAttribute="centerX" secondItem="o9v-vE-dZZ" secondAttribute="centerX" id="HgY-SF-uJE"/>
+                            <constraint firstItem="o9v-vE-dZZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Pv0-y9-K4i"/>
+                            <constraint firstItem="Mmo-qS-54f" firstAttribute="centerY" secondItem="o9v-vE-dZZ" secondAttribute="centerY" id="Qe2-h4-u8E"/>
+                            <constraint firstItem="o9v-vE-dZZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QqK-70-dFQ"/>
+                            <constraint firstItem="i68-yv-7pa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ecB-Bm-QDb"/>
+                            <constraint firstItem="i68-yv-7pa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qfc-0r-vcG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
