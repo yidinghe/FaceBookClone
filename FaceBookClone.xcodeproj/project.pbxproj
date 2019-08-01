@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD313F2022F276220060190B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD313F1F22F276220060190B /* LoginVC.swift */; };
 		CDEAAAC122EFD520009FDD96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAAAC022EFD520009FDD96 /* AppDelegate.swift */; };
 		CDEAAAC322EFD520009FDD96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAAAC222EFD520009FDD96 /* ViewController.swift */; };
 		CDEAAAC622EFD520009FDD96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEAAAC422EFD520009FDD96 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD313F1F22F276220060190B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CDEAAABD22EFD520009FDD96 /* FaceBookClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEAAAC022EFD520009FDD96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDEAAAC222EFD520009FDD96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				CDEAAAC722EFD521009FDD96 /* Assets.xcassets */,
 				CDEAAAC922EFD521009FDD96 /* LaunchScreen.storyboard */,
 				CDEAAACC22EFD521009FDD96 /* Info.plist */,
+				CD313F1F22F276220060190B /* LoginVC.swift */,
 			);
 			path = FaceBookClone;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				CDEAAAC322EFD520009FDD96 /* ViewController.swift in Sources */,
 				CDEAAAC122EFD520009FDD96 /* AppDelegate.swift in Sources */,
+				CD313F2022F276220060190B /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
