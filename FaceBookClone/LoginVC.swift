@@ -17,10 +17,54 @@ class LoginVC: UIViewController {
     @IBOutlet var leftLineView: UIView!
     @IBOutlet var rightLineView: UIView!
     
+    @IBOutlet var handsImageView: UIImageView!
+    
+    @IBOutlet var coverImageView_top: NSLayoutConstraint!
+    @IBOutlet var whiteIconImageView_y: NSLayoutConstraint!
+    @IBOutlet var handsImageView_top: NSLayoutConstraint!
+    @IBOutlet weak var registerButton_bottom: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(false)
+    }
+    
+    @objc func keyboardWillShow(notification: Notification) {
+        print("keyboardWillShow")
+        coverImageView_top.constant -= 75
+        handsImageView_top.constant -= 75
+        whiteIconImageView_y.constant += 50
+        
+        if let keyBoardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            registerButton_bottom.constant += keyBoardSize.height
+        }
+        
+        UIView.animate(withDuration: 0.8) {
+            self.handsImageView.alpha = 0
+            self.view.layoutIfNeeded()
+        }
+    }
+    
+    @objc func keyboardWillHide(notification: Notification) {
+        print("keyboardWillHide")
+        coverImageView_top.constant += 75
+        handsImageView_top.constant += 75
+        whiteIconImageView_y.constant -= 50
+        
+        if let keyBoardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            registerButton_bottom.constant -= keyBoardSize.height
+        }
+        
+        UIView.animate(withDuration: 0.8) {
+            self.handsImageView.alpha = 1
+            self.view.layoutIfNeeded()
+        }
     }
     
     override func viewDidLayoutSubviews() {
@@ -78,7 +122,7 @@ class LoginVC: UIViewController {
     
     func configure_registerBtn() {
         let border = CALayer()
-        border.borderColor = UIColor(red: 68/255, green: 105 / 255, blue: 176 / 255, alpha: 1).cgColor
+        border.borderColor = UIColor(red: 68 / 255, green: 105 / 255, blue: 176 / 255, alpha: 1).cgColor
         border.borderWidth = 2
         border.frame = CGRect(x: 0, y: 0, width: registerButton.frame.width, height: registerButton.frame.height)
         

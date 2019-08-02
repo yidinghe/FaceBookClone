@@ -41,7 +41,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hhb-oc-cx7">
                                         <rect key="frame" x="8" y="56" width="327" height="30"/>
@@ -150,11 +150,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="coverImageView_top" destination="ecB-Bm-QDb" id="eRc-Gm-UFw"/>
+                        <outlet property="handsImageView" destination="o9v-vE-dZZ" id="DvD-Gt-Qbz"/>
+                        <outlet property="handsImageView_top" destination="Pv0-y9-K4i" id="Tyw-PE-W1G"/>
                         <outlet property="leftLineView" destination="ppr-Mj-LNG" id="QFu-2q-gfT"/>
                         <outlet property="loginButton" destination="ohq-MC-Lbb" id="ZZ6-9Z-DnI"/>
                         <outlet property="registerButton" destination="nHV-mE-llK" id="H83-gQ-i9t"/>
+                        <outlet property="registerButton_bottom" destination="JQJ-QH-FKs" id="ws0-PZ-2tf"/>
                         <outlet property="rightLineView" destination="buR-JU-JsU" id="wIU-GJ-ZVl"/>
                         <outlet property="textFieldsView" destination="glQ-a7-bbx" id="rJp-YE-CUJ"/>
+                        <outlet property="whiteIconImageView_y" destination="Qe2-h4-u8E" id="Sx4-AW-xWB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
