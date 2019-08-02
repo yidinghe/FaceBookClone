@@ -81,14 +81,12 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ppr-Mj-LNG">
                                 <rect key="frame" x="44" y="669.66666666666663" width="125" height="30"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="YoR-8A-AEG"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="buR-JU-JsU">
                                 <rect key="frame" x="206" y="669.66666666666663" width="125" height="30"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ZNO-53-vha"/>
                                 </constraints>
@@ -152,6 +150,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="leftLineView" destination="ppr-Mj-LNG" id="QFu-2q-gfT"/>
+                        <outlet property="loginButton" destination="ohq-MC-Lbb" id="ZZ6-9Z-DnI"/>
+                        <outlet property="registerButton" destination="nHV-mE-llK" id="H83-gQ-i9t"/>
+                        <outlet property="rightLineView" destination="buR-JU-JsU" id="wIU-GJ-ZVl"/>
                         <outlet property="textFieldsView" destination="glQ-a7-bbx" id="rJp-YE-CUJ"/>
                     </connections>
                 </viewController>
