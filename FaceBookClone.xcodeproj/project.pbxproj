@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1EB7F923189CA4003C3F07 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EB7F823189CA4003C3F07 /* RegisterVC.swift */; };
 		CD313F2022F276220060190B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD313F1F22F276220060190B /* LoginVC.swift */; };
 		CDEAAAC122EFD520009FDD96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAAAC022EFD520009FDD96 /* AppDelegate.swift */; };
 		CDEAAAC322EFD520009FDD96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAAAC222EFD520009FDD96 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD1EB7F823189CA4003C3F07 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		CD313F1F22F276220060190B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CDEAAABD22EFD520009FDD96 /* FaceBookClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEAAAC022EFD520009FDD96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				CDEAAAC922EFD521009FDD96 /* LaunchScreen.storyboard */,
 				CDEAAACC22EFD521009FDD96 /* Info.plist */,
 				CD313F1F22F276220060190B /* LoginVC.swift */,
+				CD1EB7F823189CA4003C3F07 /* RegisterVC.swift */,
 			);
 			path = FaceBookClone;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDEAAAC322EFD520009FDD96 /* ViewController.swift in Sources */,
+				CD1EB7F923189CA4003C3F07 /* RegisterVC.swift in Sources */,
 				CDEAAAC122EFD520009FDD96 /* AppDelegate.swift in Sources */,
 				CD313F2022F276220060190B /* LoginVC.swift in Sources */,
 			);

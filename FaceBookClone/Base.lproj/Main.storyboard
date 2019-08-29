@@ -72,6 +72,9 @@
                                 <state key="normal" title="Register New Account">
                                     <color key="titleColor" red="0.26084017749999999" green="0.40274846549999999" blue="0.69884943960000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2Zz-L2-Xt3" kind="presentation" id="Jks-j1-qt0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKB-D8-u2Y">
                                 <rect key="frame" x="177" y="676" width="21" height="17"/>
@@ -165,6 +168,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133.59999999999999" y="136.69950738916256"/>
+        </scene>
+        <!--RegisterVC-->
+        <scene sceneID="dat-bu-Olt">
+            <objects>
+                <viewController id="2Zz-L2-Xt3" customClass="RegisterVC" customModule="FaceBookClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pv3-uj-z6E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uko-XF-G2n"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hqe-bK-nvw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="137"/>
         </scene>
     </scenes>
     <resources>
